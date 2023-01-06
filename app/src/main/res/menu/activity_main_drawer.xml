@@ -28,5 +28,9 @@
             android:id="@+id/trading_vs_investing"
             android:icon="@drawable/trading_vs_investing_foreground"
             android:title="Trading vs Investing" />
+        <item
+            android:id="@+id/calculator"
+            android:icon="@drawable/calculator_foreground"
+            android:title="Calculator" />
     </group>
 </menu>

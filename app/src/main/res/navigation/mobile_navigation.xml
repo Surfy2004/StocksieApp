@@ -40,4 +40,10 @@
         android:name="com.example.stocksieapp.ui.TradingVsInvestingFragment"
         android:label="Trading vs Investing"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/calculator"
+        android:name="com.example.stocksieapp.ui.CalculatorFragment"
+        android:label="Calculator"
+        tools:layout="@layout/fragment_slideshow" />
 </navigation>
