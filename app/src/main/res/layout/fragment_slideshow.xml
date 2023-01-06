@@ -24,7 +24,7 @@
         android:id="@+id/textView4"
         android:layout_width="236dp"
         android:layout_height="73dp"
-        android:text="Some sample text"
+        android:text="Some types of investing text"
         tools:layout_editor_absoluteX="84dp"
         tools:layout_editor_absoluteY="118dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

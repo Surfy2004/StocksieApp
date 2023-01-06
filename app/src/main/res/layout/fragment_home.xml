@@ -24,7 +24,7 @@
         android:id="@+id/textView2"
         android:layout_width="265dp"
         android:layout_height="138dp"
-        android:text="Some text goes here"
+        android:text="Some introduction to stock market text"
         tools:layout_editor_absoluteX="49dp"
         tools:layout_editor_absoluteY="202dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>

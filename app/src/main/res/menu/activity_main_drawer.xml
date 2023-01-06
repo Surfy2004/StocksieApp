@@ -16,5 +16,9 @@
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/types_of_investing_foreground"
             android:title="Types of investing" />
+        <item
+            android:id="@+id/nav_technical_analysis"
+            android:icon="@drawable/technical_analysis_foreground"
+            android:title="Technical analysis" />
     </group>
 </menu>

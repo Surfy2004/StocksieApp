@@ -22,4 +22,10 @@
         android:name="com.example.stocksieapp.ui.slideshow.SlideshowFragment"
         android:label="Types of investing"
         tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_technical_analysis"
+        android:name="com.example.stocksieapp.TechnicalAnalysisFragment"
+        android:label="Technical analysis"
+        tools:layout="@layout/fragment_slideshow" />
 </navigation>

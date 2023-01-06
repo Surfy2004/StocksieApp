@@ -24,7 +24,7 @@
         android:id="@+id/textView3"
         android:layout_width="235dp"
         android:layout_height="103dp"
-        android:text="Some text goes here"
+        android:text="Some common vs preferred stock text goes here"
         tools:layout_editor_absoluteX="109dp"
         tools:layout_editor_absoluteY="129dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
