@@ -14,7 +14,7 @@
             android:title="Common vs preferred stock" />
         <item
             android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="@string/menu_slideshow" />
+            android:icon="@drawable/types_of_investing_foreground"
+            android:title="Types of investing" />
     </group>
 </menu>

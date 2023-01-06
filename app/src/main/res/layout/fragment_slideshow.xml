@@ -19,4 +19,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="236dp"
+        android:layout_height="73dp"
+        android:text="Some sample text"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="118dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
