@@ -17,6 +17,10 @@
             android:icon="@drawable/types_of_investing_foreground"
             android:title="Types of investing" />
         <item
+            android:id="@+id/how_to_start"
+            android:icon="@drawable/how_to_start_foreground"
+            android:title="How to start fragment" />
+        <item
             android:id="@+id/nav_technical_analysis"
             android:icon="@drawable/technical_analysis_foreground"
             android:title="Technical analysis" />
