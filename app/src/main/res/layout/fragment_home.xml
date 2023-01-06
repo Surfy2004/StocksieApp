@@ -19,4 +19,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="265dp"
+        android:layout_height="138dp"
+        android:text="Some text goes here"
+        tools:layout_editor_absoluteX="49dp"
+        tools:layout_editor_absoluteY="202dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
