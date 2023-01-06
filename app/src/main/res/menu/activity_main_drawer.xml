@@ -24,5 +24,9 @@
             android:id="@+id/nav_technical_analysis"
             android:icon="@drawable/technical_analysis_foreground"
             android:title="Technical analysis" />
+        <item
+            android:id="@+id/trading_vs_investing"
+            android:icon="@drawable/trading_vs_investing_foreground"
+            android:title="Trading vs Investing" />
     </group>
 </menu>
