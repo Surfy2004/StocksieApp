@@ -10,8 +10,8 @@
             android:title="Intro to stock market" />
         <item
             android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="@string/menu_gallery" />
+            android:icon="@drawable/common_preffered_foreground"
+            android:title="Common vs preferred stock" />
         <item
             android:id="@+id/nav_slideshow"
             android:icon="@drawable/ic_menu_slideshow"

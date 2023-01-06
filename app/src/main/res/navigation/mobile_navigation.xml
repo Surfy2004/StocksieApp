@@ -14,7 +14,7 @@
     <fragment
         android:id="@+id/nav_gallery"
         android:name="com.example.stocksieapp.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
+        android:label="Common vs preferred stock"
         tools:layout="@layout/fragment_gallery" />
 
     <fragment
