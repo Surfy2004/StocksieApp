@@ -9,6 +9,6 @@
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Some how to start text here" />
+        android:text="" />
 
 </FrameLayout>

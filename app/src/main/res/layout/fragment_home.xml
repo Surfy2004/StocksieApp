@@ -10,10 +10,8 @@
         android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:textAlignment="center"
+        android:layout_marginLeft="5dp"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,9 +20,22 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="265dp"
-        android:layout_height="138dp"
-        android:text="Some introduction to stock market text"
-        tools:layout_editor_absoluteX="49dp"
-        tools:layout_editor_absoluteY="202dp" />
+        android:layout_width="330dp"
+        android:layout_height="600dp"
+        android:text="\n                                    Stock market \n\n
+    A network of stock exchanges where traders and investors buy and sell shares of publicly-traded companies. \n   \n
+                                Private company \n\n
+    A company is typically owned by a small number of investors (usually consisting of people like you, your friends or parents, and professional investors) ⇒ large companies can stay private too. \n   \n
+    Once the company goes public, you’re opening up that business to be owned by a large number of people. Initial public offering (IPO) is the first time a company sells shares of stock to the public. \n   \n          This means that a company that was privately-owned until then becomes a publicly-traded company \n \n  \n                              So why go public? \n\n
+    Going public raises a lot of cash for a company;
+    with that money, it becomes easier for a company to grow.\n \n
+
+                                    Why invest? \n\n
+    Buying stocks makes the investor (you) partial owner of that business."
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

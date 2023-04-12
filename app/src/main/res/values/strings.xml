@@ -10,6 +10,18 @@
     <string name="menu_home">Home</string>
     <string name="menu_gallery">Gallery</string>
     <string name="menu_slideshow">Slideshow</string>
+    <string name="IntroToStockMarketText">\n                  \n                                             Stock market \n\n
+         A network of stock exchanges where traders and investors buy and sell shares of publicly-traded companies. \n   \n
+                               Private company \n\n
+         A company is typically owned by a small number of investors (usually consisting of people like you, your friends or parents, and professional investors) ⇒ large companies can stay private too. \n   \n
+       Once the company goes public, you’re opening up that business to be owned by a large number of people. Initial public offering (IPO) is the first time a company sells shares of stock to the public. \n   \n          This means that a company that was privately-owned until then becomes a publicly-traded company \n \n  \n                                           So why go public? \n\n
+        Going public raises a lot of cash for a company;
+with that money, it becomes easier for a company to grow.\n \n
+
+                                            Why invest? \n\n
+         Buying stocks makes the investor (you) partial owner of that business
+.
+</string>
 
     <string-array name="spinnerItems">
         <item>Bank account with interest rate</item>
