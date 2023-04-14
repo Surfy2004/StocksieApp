@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".HowToStartFragment">
 
     <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="" />
+        android:id="@+id/text_home"
+        android:layout_width="match_parent"
+        android:layout_height="743dp"
+        android:layout_marginLeft="10dp"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</FrameLayout>
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="330dp"
+        android:layout_height="600dp"
+        android:text="\nSTEP 1:
+       \n
+       \n
+       In order to buy a stock you need to sign up to a brokerage company.
+        \n \n
+        A brokerage company is a platform that allows you to buy and sell stocks.
+\n \n
+        If you're looking for a very cheap broker and you are just beginning your investing journey, try Robinhood and Webull. \n \n       They are quite popular and you can buy and sell stocks for free with them. \n \n
+        Or if you have a bit more money and you are looking for a platform that has been around for a lot longer, look into one like Charles Schwab, Fidelity or TD Ameritrade. \n \n
+        They're pretty easy and straightforward to sign up to.
+\n\n
+STEP 2: \n\n
+       Choose your investing strategy (1 from the 4 types of investing).
+\n\n
+STEP 3: \n \n        Pick the stocks of companies you believe will become successful in the future.
+"
+
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
