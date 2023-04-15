@@ -7,13 +7,11 @@
     tools:context=".ui.gallery.GalleryFragment">
 
     <TextView
-        android:id="@+id/text_gallery"
+        android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:textAlignment="center"
+        android:layout_marginLeft="5dp"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -22,9 +20,22 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="235dp"
-        android:layout_height="103dp"
-        android:text="Some common vs preferred stock text goes here"
-        tools:layout_editor_absoluteX="109dp"
-        tools:layout_editor_absoluteY="129dp" />
+        android:layout_width="330dp"
+        android:layout_height="600dp"
+        android:text=" \n\nPreferred stock / Preferred share
+        \n\n      - Stock that entitles the holder to a fixed dividend (a sum of money paid regularly by a company to its shareholders out of its profits), whose payment takes priority over that of ordinary share dividends
+
+\n\nCommon stock / Common share
+\n\n       - Shares entitling their holder to dividends that vary in amount and may even be missed, depending on the fortunes of the company; ordinary shares
+
+\n\n       - Common shares have voting rights and preferred shares don't. \n\nWhen you have voting rights you can vote on things like board elections, mergers and other financial decisions. \n\nSo when it comes time for a company to elect a board of directors or vote on any form of corporate policy, preferred shareholders have no voice in the future of the company. \n\nIn fact, preferred stock functions similarly to bonds since with preferred shares, investors are usually guaranteed a fixed dividend in perpetuity.
+
+\n\n       - Preferred shareholders have priority over a company's income, meaning they are paid dividends before common shareholders. Yet most investors are familiar with the common stocks.
+"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

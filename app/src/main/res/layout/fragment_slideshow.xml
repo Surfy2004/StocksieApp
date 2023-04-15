@@ -7,14 +7,12 @@
     tools:context=".ui.slideshow.SlideshowFragment">
 
     <TextView
-        android:id="@+id/text_slideshow"
+        android:id="@+id/text_home"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="8dp"
-        android:layout_marginEnd="8dp"
         android:textAlignment="center"
-        android:textSize="20sp"
+        android:layout_marginLeft="5dp"
+        android:textSize="19sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -22,9 +20,33 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="236dp"
-        android:layout_height="73dp"
-        android:text="Some types of investing text"
-        tools:layout_editor_absoluteX="84dp"
-        tools:layout_editor_absoluteY="118dp" />
+        android:layout_width="330dp"
+        android:layout_height="660dp"
+        android:text="1.1 Dividend investing \n\n
+    You buy stocks that pay a dividend as a portion of their earnings.
+They get paid every quarter, every month, or semi-annually.
+It is a passive and reliable income opportunity.
+However, there is less room for high quick growth.\n\nPopular dividend stocks: 3M, Johnson and Johnson, AT and T
+\n\n1.2 Value investing \n\n
+    It made Warren Buffett a billionaire…;))
+You buy stocks at a price below their value.
+You should look for high value stocks and low prices.
+Popular value stocks: Alibaba.com, Berkshire Hathaway, GameStop
+\n\n1.3 Growth investing \n\n
+    There are a lot of risks, associated with it, but there is a huge potential for quick high returns.
+You need to invest in innovative industries, such as artificial intelligence and robotics.
+Popular growth stocks: Coinbase, Intellia Therapeutics, Palantir
+\n\n1.4 Passive investing\n\n
+    You invest in index funds.\n\n
+    Index fund:
+    \n\n              - A basket of stocks that tracks a specific group of the market
+It has higher returns than most other big hedge funds.
+When it comes to investing, sometimes less is more.
+Popular index funds: S and P 500, Vanguard Information Technology Fund"
+        tools:layout_editor_absoluteX="53dp"
+        tools:layout_editor_absoluteY="65dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 </androidx.constraintlayout.widget.ConstraintLayout>
