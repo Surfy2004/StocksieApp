@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background= "@color/how_to_start_background"
+
     tools:context=".ui.TradingVsInvestingFragment">
 
     <TextView
@@ -22,15 +24,30 @@
         android:id="@+id/textView2"
         android:layout_width="330dp"
         android:layout_height="600dp"
-        android:text=" \n \n Investors: \n\n
+        android:text=" \n                             Trading vs. Investing \n\n Investors: \n\n
         Investors strive for long-term profits. They buy and hold stocks for a larger period of time, aiming to gradually increase their wealth.
 \n \n \nTraders \n\n
         Traders are focused on the short-term benefits. They take advantage of rising and falling markets to maximize daily and monthly returns by frequently buying and selling stocks.
 "
-        tools:layout_editor_absoluteX="53dp"
-        tools:layout_editor_absoluteY="65dp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.054" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="356dp"
+        android:layout_height="817dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/tradingvsinvesting"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.692"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0" />
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background= "@color/how_to_start_background"
+
     tools:context=".ui.gallery.GalleryFragment">
 
     <TextView
@@ -22,6 +24,7 @@
         android:id="@+id/textView3"
         android:layout_width="330dp"
         android:layout_height="600dp"
+        android:textStyle="bold"
         android:text=" \n\nPreferred stock / Preferred share
         \n\n      - Stock that entitles the holder to a fixed dividend (a sum of money paid regularly by a company to its shareholders out of its profits), whose payment takes priority over that of ordinary share dividends
 
